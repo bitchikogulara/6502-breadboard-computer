@@ -27,3 +27,8 @@ All software is written manually in 6502 assembly language. Two programs are cur
 
 ## 📚 Reference
 The core design and learning path for this project are based on [Ben Eater’s 6502 computer series](https://eater.net/6502), with custom programs and minor hardware adjustments.
+
+## 🚧 Project Status
+
+This project is **actively under development**. More features and programs — including games — are planned for future updates.  
+Contributions, suggestions, and collaborations are welcome! Feel free to open an issue or pull request if you'd like to participate.
