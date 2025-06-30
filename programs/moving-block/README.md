@@ -8,7 +8,7 @@ A small interactive program for a 6502 breadboard computer that uses interrupts 
 - Each button press moves the block one position to the left.
 - When the block reaches position 0, it wraps back to position 15.
 
-<video src="./demonstration-video.mp4" controls autoplay loop style="max-width: 100%; height: auto;"></video>
+<video src="https://github.com/user-attachments/assets/4898b12e-4693-45b3-8420-4c7672f9099a" controls autoplay loop style="max-width: 100%; height: auto;"></video>
 
 ## 🔍 Program Logic Breakdown
 - **Initialization:**
@@ -29,7 +29,6 @@ A small interactive program for a 6502 breadboard computer that uses interrupts 
 ## 🧾 File Contents
 - `main.asm` – 6502 Assembly source code.
 - `main.bin` – Assembled binary for EEPROM flashing.
-- `demonstration_video.mp4` – Demo of the program on real hardware.
 
 ## 🔧 Hardware Overview
 - **CPU:** WDC 65C02  
@@ -47,12 +46,7 @@ A small interactive program for a 6502 breadboard computer that uses interrupts 
 - `box_index = $0216` – Tracks current block position
 
 ## 💾 Flashing to EEPROM
-1. Assemble using `vasm`:
-   ```bash
-   vasm6502_oldstyle -Fbin -dotdir -o main.bin main.asm
-   ```
-2. Write `main.bin` to a 28C256 EEPROM using a programmer (e.g. TL866II+).
-3. Insert EEPROM into the 6502 system and power it up.
+See the [EEPROM Programming Guide](../../eeprom/how_to_program.md) for details on how to assemble and flash this program to your EEPROM using a custom or commercial programmer.
 
 ## 🧠 Notes
 - The program runs from address `$8000` with vectors defined at `$FFFA–$FFFF`.
@@ -60,4 +54,3 @@ A small interactive program for a 6502 breadboard computer that uses interrupts 
 
 ## 🙌 Contributions
 Improvements and experiments are welcome. Feel free to fork and build on this!
-
