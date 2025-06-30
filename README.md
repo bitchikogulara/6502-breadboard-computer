@@ -26,7 +26,7 @@ All software is written manually in 6502 assembly language. Two demonstration pr
 6502-breadboard-computer/
 ├── README.md                       # Main project overview
 ├── SETUP.md                        # Hardware setup and wiring guide !comming soon!
-├── eeprom/                         # EEPROM programming instructions
+├── eeprom/                         # EEPROM programming instructions !comming soon!
 │   └── how_to_program.md
 └── programs/
     ├── moving-block/
